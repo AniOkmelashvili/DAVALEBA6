@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 16px;
+    margin-block-start: 16px;
+    
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+    align-items: center;
+    justify-content: center;
+}
+.fully {
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    
+}
+section {
+    margin-block: 16px;
+}
+.satauri h1 {
+    font-size: 25px;
+    padding-block: 16px;
+}
+.satauri p {
+    font-size: 16px;
+
+}
+.recipe {
+    background-color: white;
+    margin: 80px;
+    padding: 16px 36px;
+    border-radius: 20px;
+    line-height: 1.5;
+    
+    
+}
+
+
+.preparation h3 {
+    font-size: 20px;
+    color:  hsl(30, 10%, 34%);
+}
+.preparation {
+    background-color: hsl(30, 54%, 90%);
+    padding-block: 24px;
+    border-radius: 16px;
+    padding-inline-start: 24px;
+    margin: 10%;
+    line-height: 2;
+}
+.ingredient h2 {
+    font-size: 25px;
+    color: hsl(30, 10%, 34%);
+}
+.ingredient {
+    margin-left: 80px;
+    
+    
+}
+.ingredient ol {
+    padding-inline-start: 16px;
+
+}
+.instructions h2 {
+    color: hsl(30, 10%, 34%);
+}
+
+.instructions {
+    
+   margin-left: 50px;
+}
+.nutrition h2 {
+    color: hsl(30, 10%, 34%);
+}
+.nutrition {
+    
+    margin-left: 50px;
+}
+.nutrition table {
+    margin-block: 16px;
+    width: 100%;
+}
+.nutrition td {
+    border-bottom: 5px solid hsl(30, 18%, 87%);
+    width: 30%;
+    vertical-align: middle;
+}
+.table-value {
+    color:  hsl(24, 5%, 18%);
+}
+.nutrition tr:last-child td {
+    border-bottom: none;
+}
+.line {
+    background-color: hsl(30, 18%, 87%);
+    max-width : 80%;
+    min-height: 5px;
+    margin-left: 50px;
+}
